@@ -5,5 +5,5 @@ CREATE TABLE bears (
   gender TEXT,
   color TEXT,
   temperament TEXT,
-  alive BOOL
-)
+  alive INTEGER /* SQLite uses Integers for Booleans (1 for true                and 0 for false) */
+);
